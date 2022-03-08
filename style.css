@@ -5,5 +5,41 @@
 }
 
 body{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* BOXES*/
+
+.box{
+  height: 100vh;
+}
+
+.box{
+  position:relative;
+
+}
+
+.box .scarpa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* /BOXES */
+
+/* BOX RED */
+.red{
+  background-color: rgb(255, 3, 2) ;
+}
+
+/* BOX RED */
+.green{
+  background-color: rgb(0, 127, 10) ;
+}
+
+/* BOX RED */
+.yellow{
+  background-color:rgb(254, 254, 31) ;
 }
